@@ -28,6 +28,5 @@ int main(){
     printf("%.6f\n", fr1/n );
     printf("%.6f\n", fr2/n );
     printf("%.6f\n", fr3/n );
-
     return 0;
 }

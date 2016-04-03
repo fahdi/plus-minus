@@ -14,7 +14,6 @@ int main(){
     for(int arr_i = 0;arr_i < n;arr_i++){
        cin >> arr[arr_i];
     }
-
     for(int arr_i = 0; arr_i < n; arr_i++){
         if(arr[arr_i]>0) {
             fr1++;
@@ -30,6 +29,5 @@ int main(){
     cout << (fr1/n) <<'\n' ;
     cout << (fr2/n) <<'\n' ;
     cout << (fr3/n) <<'\n' ;
-
     return 0;
 }
